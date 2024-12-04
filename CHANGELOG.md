@@ -1,6 +1,11 @@
 DAMN VULNERABLE WEB APPLICATION
 =======================
 
+DVWA With Lando (based on the latest stable/downloadable version)
+======
+
++ Added support for Lando (2024-12-03) , so you can spin up the environment with an ease.
+
 v1.10 (*Not Yet Released)
 ======
 

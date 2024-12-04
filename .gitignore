@@ -1,16 +1,30 @@
 # Neither the config file or its backup should go
 # into the repo.
-config/config.inc.php.bak
-config/config.inc.php
+web/config/config.inc.php.bak
+# web/config/config.inc.php
 
 # Vim swap files
 .*swp
 
 # VS Code editor files
-*.code-workspace
+# *.code-workspace
+/.vscode/*
+!/.vscode/settings.json
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/extensions.json
+!/.vscode/*.code-snippets
+!/.vscode/dvwa-with-lando.code-workspace
+!/.vscode/php.ini
+!/.vscode/lando.env
 
 # Used by pytest
-tests/__pycache__/
+web/tests/__pycache__/
 
 # Don't include any uploaded images
-hackable/uploads/*
+web/hackable/uploads/*
+
+# Don't include the .env file
+web/.env
+
+/vendor/
